@@ -12,3 +12,6 @@ javax.servletパッケージとjavax.servlet.httpパッケージは、サーブ�
 
 ## サーブレットのライフサイクル
 [サーブレットのライフサイクル](./doc/ServletLifecycle.md)
+
+## 情報の共有
+[情報の共有](./doc/SharingInformation.md)
