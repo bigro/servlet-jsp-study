@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+dependencies {
+    providedCompile group: 'javax', name: 'javaee-api', version: '7.0'
+
+    // Use JUnit test framework
+    testCompile 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
