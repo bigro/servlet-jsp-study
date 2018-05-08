@@ -19,7 +19,7 @@ public class HelloServlet extends HttpServlet {
         out.println("</head>");
         out.println("<body>");
         out.println("<p>Hello!</p>");
-        out.println("<p>こんにちは!</p>");
+        out.println("<p>こんにちは!!!!!!</p>");
         out.println("<p>" + LocalDate.now() + "</p>");
         out.println("</body>");
         out.println("</html>");
