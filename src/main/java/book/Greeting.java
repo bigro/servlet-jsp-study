@@ -24,4 +24,16 @@ public class Greeting extends HttpServlet{
         out.println("<p>こんにちは" + user + "さん</p>");
         Page.footer(out);
     }
+
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html; charset=UTF-8");
+        PrintWriter out = response.getWriter();
+
+        request.setCharacterEncoding("UTF-8");
+        String user = request.getParameter("user");
+
+        Page.header(out);
+        out.println("<p>こんにちは" + user + "さん</p>");
+        Page.footer(out);
+    }
 }
