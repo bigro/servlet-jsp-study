@@ -10,8 +10,8 @@ import java.io.IOException;
 @WebServlet(name = "hello", urlPatterns = "/")
 public class HelloServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().write("Hello Servlet!!!!");
-        String
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/plain; charset=UTF-8");
+        response.getWriter().write("こんにちわ");
     }
 }
