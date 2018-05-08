@@ -12,7 +12,7 @@
 
     <servlet-mapping>
         <servlet-name>hello</servlet-name>
-        <url-pattern>/book/hello</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
     
 </web-app>
