@@ -5,6 +5,7 @@ plugins {
 
 dependencies {
     providedCompile group: 'javax', name: 'javaee-api', version: '7.0'
+    runtime 'org.postgresql:postgresql:42.2.1'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'

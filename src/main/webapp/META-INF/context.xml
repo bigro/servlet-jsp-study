@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context reloadable="true" />
+<Context reloadable="true">
+    <Resource
+            name="jdbc/book"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="org.postgresql.Driver"
+            url="jdbc:postgresql://localhost:5432/book"
+            username="book_user"
+            password="abcdef"
+    />
+</Context>
